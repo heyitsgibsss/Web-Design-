@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surat Permohonan Tamat | Lab Exercise#2</title>
+</head>
+<body>
+    <img src="LOGO_UNIVERSITAS_KLABAT.png" alt="LOGO_UNIVERSITAS_KLABAT" width="150px">
+    <h1 style="text-align: center;">UNIVERSITAS KLABAT<br>AIRMADIDI-MANADO</h1>
+    <h2 style="text-align: center;">SURAT PERMOHONAN TAMAT</h2>
+    <hr> 
+    
+    <label for="">Nama (Sesuai ijazah)</label>
+    <input type="text" id="nama_ijazah" name="nama_ijazah"><br><br>
+
+    <label for="">Nomor Telepon/HP</label>
+    <input type="number" id="nomor_hp" name="nomor_hp"><br><br>
+
+    <label for="">Jenis Kelamin</label>
+    <input type="radio" id="gender1" name="kelamin" value="kelamin">Laki-laki
+    <input type="radio" id="gender2" name="kelamin" value="kelamin">Perempuan
+    <br><br>
+
+    <label for="">Nomor Induk Mahasiswa</label>
+    <input type="number" id=nim name="nomor_induk_student"><br><br>
+
+    <label for="">Nomor Induk Kependudukan</label>
+    <input type="number" id=nik name="nomor_induk_civil"><br><br>
+
+    <label for="">Fakultas</label>
+        <select name_="fakulas" id="fakultas">
+            <option value="Ilmu Komputer">Fakultas Ilmu Komputer</option>
+            <option value="Ekonomi Bisnis">Fakultas Ekonomi & Bisnis</option>
+            <option value="Keperawatan">Fakultas Keperawatan</option>
+            <option value="Filsafat">Fakultas Filsafat</option>
+            <option value="Pendidikan">Fakultas Pendidikan</option>
+            <option value="Pertanian">Fakultas Pertanian</option>
+            <option value="ASMIK">Akademi Sekretaris</option>
+            </select><br><br>
+
+    <label for="">Program Studi</label>
+        <select name="jurusan" id="jurusan">
+            <option value="Informatika">Informatika</option>
+            <option value="Sistem Informasi">Sistem Informasi</option>
+            <option value="Teknologi Informasi">Teknologi Informasi</option>
+            <option value="Akuntansi">Akuntansi</option>
+            <option value="Manajemen">Manajemen</option>
+            <option value="International Program">International Program</option>
+            <option value="Keperawatan">Keperawatan</option>
+            <option value="Pendidikan Bahasa Inggris">Pendidikan Bahasa Inggris</option>
+            <option value="Pendidikan Agama">Pendidikan Agama</option>
+            <option value="Agriculture">Agrikultur</option>
+            <option value="Sekretaris">Sekretaris</option>
+        </select><br><br>
+            
+    <label for="">Minor</label>
+    <input type="text" id="minor" name="minor"><br><br>
+
+    <label for="">Tahun Ajaran</label>
+        <select>
+            <option value="2019/2020">Tahun Ajaran 2019/2020</option>
+            <option value="2020/2021">Tahun Ajaran 2020/2021</option>
+            <option value="2021/2022">Tahun Ajaran 2021/2022</option>
+            <option value="2022/2023">Tahun Ajaran 2022/2023</option>
+            <option value="2023/2024">Tahun Ajaran 2023/2024</option>
+        </select><br><br>
+
+    <label for="">Tahun Penamatan</label>
+    <input type="date" id="tahun" name="tahun"><br><br>
+
+    <h3>SISA MATA KULIAH YANG HARUS DIAMBIL</h3>
+
+    <table border='1' cellspacing="0" style="width: 600px;" style=>
+        
+        <tr>
+            <th><label for=""><strong>No</strong></label></th>
+            <th><label for=""><strong>Mata Kuliah</strong></label></th>
+            <th><label for=""><strong>Kredit</strong></label></th>
+            <th><label for=""><strong>Nama Dosen Mengajar</strong></label></th>
+            <th><label for=""><strong>Paralel</strong></label></th>
+            <th><label for=""><strong>Keterangan</strong></label></th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><input type="text"></td>
+            <td><input type="number"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><input type="text"></td>
+            <td><input type="number"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><input type="text"></td>
+            <td><input type="number"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><input type="text"></td>
+            <td><input type="number"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><input type="text"></td>
+            <td><input type="number"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+    </table><br>
+        <label for=""><strong>Jumlah SKS</strong></label>
+        <input type="number" id="sks" name="sks">
+        <br><br>
+
+    <label for="">Disetujui oleh:</label>
+
+    <table border="1" cellspacing="0">
+        <tr>
+            <th><strong>DEKAN</strong></th>
+            <th><strong>KETUA PRODI</strong></th>
+            <th><strong>KETUA MINOR</strong></th>
+            <th><strong>REGISTRAR</strong></th>
+        </tr>
+
+        <tr>
+            <td><textarea name="dekan" id="dekan" cols="30" rows="5"></textarea><br><label for="">Name <input type="text"></label></td>
+            <td><textarea name="ketuaprodi" id="ketuaprodi" cols="30" rows="5"></textarea><br><label for="">Name <input type="text"></label></td>
+            <td><textarea name="ketuaminor" id="ketuaminor" cols="30" rows="5"></textarea><br><label for="">Name <input type="text"></label></td>
+            <td><textarea name="registrar" id="registrar" cols="30" rows="5"></textarea><br><strong>L. Tappy-Wullur</strong></label></td>
+        </tr>
+    </table>
+
+    <p>1. Permohonan ini harus diisi pada permulaan semester untuk ditamatkan (hari pertama kuliah)</p>
+    <p>2. Mata kuliah yang dituliskan pada permohonan ini adalah sesuai dengan semua sisa mata kuliah yang harus diambil
+        termasuk incomplete dan subjek perbaikan.</p>
+    <p>3. Surat Permohonan Tamat ini harus ditanda tangani oleh Dekan, Ketua Prodi, dan Ketua Minor masing-masing
+        fakultas dengan <strong><i>melampirkan jadwal matakuliah yang dikontrak pada semester berjalan.</i></strong></p>
+    <p>4. SPT ini dianggap selesai (Sah) apabila sudah dimasukkan di kantor Registrar.</p>
+    <p>5. Batas pemasukan SPT satu minggu sesudah add & drop mata kuliah.</p>
+
+    <p><i>Juga melampirkan Surat/Sertifikat dibawah ini:</i></p>
+
+    <table border="1" cellspacing="0">
+        <tr>
+            <th><strong>Fak. Fakultas</strong></th>
+            <th><strong>Fakultas Ilmu Komputer</strong></th>
+            <th><strong>Fakultas Keguruan dan Ilmu Pendidikan</strong></th>
+            <th><strong>ASMIK</strong></th>
+        </tr>
+
+        <tr>
+            <td>Surat Menjual Buku</td>
+            <td>Sertifikat Oracle & Sisco</td>
+            <td>Ujian Comprehensive bagi
+                yang tidak mengambil Skripsi</td>
+            <td>Sertifikat Seminar & Table
+                Manner (minimal 5)</td>
+        </tr>
+    </table>
+
+    <p>Airmadidi, <input type="date"></p>
+    <p>Yang Bermohon,</p><br><br><br>
+
+    <input type="text">
+</body>
+</html>
